@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+img{
+    margin-bottom: 1rem;
+}
+
+.title{
+    font-size: 1.7rem;
+    font-weight: 600;
+    letter-spacing: .4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    margin-bottom: 1rem;
+    color: #5fbaa7;
+}
+
+.text{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.container{
+    width: 450px;
+}
+
+.btn{
+    color: #fff;
+    background: #5fbaa7;
+    padding: .3rem 1rem;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    
+}
+
+.currency{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.currency select{
+    cursor: pointer;
+    padding:.1rem 2rem;
+    border-radius: 10px;
+    outline: none;
+}
+
+.currency input{
+    cursor: pointer; 
+    border: 0;
+    border-radius: 10px;
+    // outline: none;
+    text-align: end;
+}
+
+.swap-rate-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+select:focus, input:focus, button:focus{
+    outline: 0;
+}
